@@ -19,6 +19,7 @@ body
 {
 	margin: 0;
 	padding: 0;
+    width: 962px;
 	/*background-image: url( 'vampircsepp.jpg' );*/
 	/*background-repeat: repeat;*/
 	height: 125px;
@@ -28,6 +29,7 @@ body
 #content
 {
     padding: 20px;
+    width: 922px;
 }
 
 #sidebar
@@ -52,24 +54,26 @@ body
 	padding: 10px 20px;
 	font-size: 200%;
 	color: #E5B1B5;
- width: 960px;;
+ width: 922px;;
     background-color: #840d08;
     height:  25px;
 }
 #flag{
     /*background-image: url( 'vampircsepp.jpg' );*/
-    background-image: url('ua2.jpg' );
+    background: url('ua3.jpg' );
+    background-size: 100%;
     background-repeat:no-repeat;
-    width: 45px;
-    height: 60px;
-
+    /*background-position: right bottom;*/
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
     margin-left: 800px;
 }
 #mainmenu
 {
 	/* background:white url(bg.gif) repeat-x left top; */
 	background-color: #520a10;
-    width: 960px;
+    width: 962px;
     height:  30px;
 }
 
