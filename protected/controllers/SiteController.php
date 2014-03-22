@@ -31,7 +31,18 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+    public function actionForum()
+    {
+        $num=0;
+       // $a = Category::model()->findAll('id>:num', array(':num'=>$num));
+//        $model=Book::model()->findByPk($id);
+        $a = Category::model()->findAllBySql( 'SELECT title FROM Category WHERE 1');
 
+        // renders the view file 'protected/views/site/index.php'
+        // using the default layout 'protected/views/layouts/main.php'
+        $this->render('forum',array('a'=>$a));
+//        echo $a;
+    }
 	/**
 	 * This is the action to handle external exceptions.
 	 */
