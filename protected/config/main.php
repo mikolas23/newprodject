@@ -10,8 +10,10 @@ return array(
     'name'=>'Мій перший блог',
     'sourceLanguage' => 'ru',
     'language' => 'en',
-  'theme' => 'vampblood',
-//    'theme'=>'mattskitchen',
+  'theme' => 'vampblood',// conected theme
+//    'theme'=>'mattskitchen'
+
+
 
 
 	// preloading 'log' component
