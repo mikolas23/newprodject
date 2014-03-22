@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed4dfb1-f627-4351-b6b6-2d10b7a24f67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/vampblood/css/main.css" afterPath="$PROJECT_DIR$/themes/vampblood/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/vampblood/views/layouts/main.php" afterPath="$PROJECT_DIR$/themes/vampblood/views/layouts/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruslan.iws" />
@@ -36,19 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoginForm.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="31.26923" vertical-offset="813" max-vertical-offset="1411">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/vampblood/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="17" selection-start="447" selection-end="447" vertical-scroll-proportion="0.87979966" vertical-offset="0" max-vertical-offset="4488">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.4587154" vertical-offset="813" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -146,10 +135,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="17" />
+    <option name="width" value="1249" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -392,7 +380,11 @@
       <created>1395508726650</created>
       <updated>1395508726650</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new dezain">
+      <created>1395511440018</created>
+      <updated>1395511440018</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -416,16 +408,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="17" y="0" width="1249" height="641" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6558966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.655303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22727273" sideWeight="0.3441034" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.252738" sideWeight="0.34469697" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -447,24 +439,19 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="dxgd" />
     <MESSAGE value="revest" />
     <MESSAGE value="new baza" />
     <MESSAGE value="New changelist" />
     <MESSAGE value="model" />
-    <option name="LAST_COMMIT_MESSAGE" value="model" />
+    <MESSAGE value="new dezain" />
+    <option name="LAST_COMMIT_MESSAGE" value="new dezain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/vampblood/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="13" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="4420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/vampblood/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="1037">
@@ -549,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="31.26923" vertical-offset="813" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/vampblood/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="52" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-5.230769" vertical-offset="272" max-vertical-offset="1054">
@@ -565,7 +545,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/vampblood/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="447" selection-end="447" vertical-scroll-proportion="0.87979966" vertical-offset="0" max-vertical-offset="4488">
+        <state line="31" column="17" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.336364" vertical-offset="1224" max-vertical-offset="4488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vampblood/css/ua3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-7.4587154" vertical-offset="813" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
