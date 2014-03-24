@@ -62,7 +62,7 @@ return array(
 		// uncomment the following to use a MySQL database
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=itportal',
+			'connectionString' => 'mysql:host=localhost;dbname=itporta',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',

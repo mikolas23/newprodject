@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed4dfb1-f627-4351-b6b6-2d10b7a24f67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/vampblood/css/ua3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/update.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/view.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/AdminModule.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/CrudCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/ModuleCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/column1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/column2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/jquery.yiigridview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/jquery.yiilistview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_baza.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/d51aed8a/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/detailview/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
     </list>
     <ignored path="ruslan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,18 +30,16 @@
       <file leaf-file-name="registtion.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/registtion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="1.1153846" vertical-offset="454" max-vertical-offset="1819">
-              <folding>
-                <marker date="1395667282969" expanded="true" signature="1504:1759" placeholder="..." />
-              </folding>
+            <state line="25" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1819">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="71" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-5.8846154" vertical-offset="935" max-vertical-offset="1768">
+            <state line="8" column="59" selection-start="302" selection-end="302" vertical-scroll-proportion="0.11371238" vertical-offset="68" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -83,7 +48,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/default/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="366" selection-end="366" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="374">
+            <state line="14" column="3" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -92,7 +57,7 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/vampblood/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="12" selection-start="2166" selection-end="2166" vertical-scroll-proportion="-4.9615383" vertical-offset="704" max-vertical-offset="1122">
+            <state line="49" column="12" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -110,16 +75,16 @@
       <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="15" selection-start="3988" selection-end="3988" vertical-scroll-proportion="-2.1960785" vertical-offset="2336" max-vertical-offset="2941">
+            <state line="144" column="15" selection-start="3988" selection-end="3988" vertical-scroll-proportion="0.0" vertical-offset="2336" max-vertical-offset="2941">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itportal.sql" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="itportal.sql" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/data/itportal.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13685">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="13685">
               <folding />
             </state>
           </provider>
@@ -154,12 +119,12 @@
         <option value="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/models/Users.php" />
         <option value="$PROJECT_DIR$/themes/vampblood/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/forum.php" />
         <option value="$PROJECT_DIR$/protected/views/site/registtion.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/data/itportal.sql" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/default/index.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
       </list>
     </option>
   </component>
@@ -354,14 +319,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -466,7 +431,11 @@
       <created>1395667551149</created>
       <updated>1395667551149</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new dezain">
+      <created>1395667807859</created>
+      <updated>1395667807859</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -490,16 +459,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3323398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6542474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6542474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3151515" sideWeight="0.3457526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32045454" sideWeight="0.3457526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -509,6 +477,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3323398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -530,9 +499,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17198443" sideWeight="0.670229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -608,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="71" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-5.8846154" vertical-offset="935" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/forum.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="7" selection-start="0" selection-end="186" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238">
@@ -624,30 +586,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/default/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="366" selection-end="366" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="374">
+        <state line="14" column="3" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/registtion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="1.1153846" vertical-offset="454" max-vertical-offset="1819">
-          <folding>
-            <marker date="1395667282969" expanded="true" signature="1504:1759" placeholder="..." />
-          </folding>
+        <state line="25" column="26" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1819">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/vampblood/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="12" selection-start="2166" selection-end="2166" vertical-scroll-proportion="-4.9615383" vertical-offset="704" max-vertical-offset="1122">
+        <state line="49" column="12" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="15" selection-start="3988" selection-end="3988" vertical-scroll-proportion="-2.1960785" vertical-offset="2336" max-vertical-offset="2941">
+        <state line="144" column="15" selection-start="3988" selection-end="3988" vertical-scroll-proportion="0.0" vertical-offset="2336" max-vertical-offset="2941">
           <folding />
         </state>
       </provider>
@@ -655,6 +615,13 @@
     <entry file="file://$PROJECT_DIR$/protected/data/itportal.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="59" selection-start="302" selection-end="302" vertical-scroll-proportion="0.11371238" vertical-offset="68" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
