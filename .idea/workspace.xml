@@ -2,19 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed4dfb1-f627-4351-b6b6-2d10b7a24f67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/components/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/components/UserIdentity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/default/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/site/registtion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Users.php" afterPath="$PROJECT_DIR$/protected/models/Users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/forum.php" afterPath="$PROJECT_DIR$/protected/views/site/forum.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/itportal.sql" afterPath="$PROJECT_DIR$/protected/data/itportal.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/vampblood/views/layouts/main.php" afterPath="$PROJECT_DIR$/themes/vampblood/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/vampblood/css/ua3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/AdminModule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/CrudCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/ModuleCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/UsersController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/_search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/column1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/column2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/jquery.yiigridview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/jquery.yiilistview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_baza.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/d51aed8a/pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/detailview/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/gridview/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fdc6f902/listview/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/users/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ruslan.iws" />
@@ -442,7 +462,11 @@
       <created>1395511508618</created>
       <updated>1395511508618</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new dezain">
+      <created>1395667551149</created>
+      <updated>1395667551149</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -467,15 +491,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3323398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.655303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3323398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6542474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3151515" sideWeight="0.66766024" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3151515" sideWeight="0.3457526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
