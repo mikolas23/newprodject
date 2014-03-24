@@ -20,7 +20,55 @@ class SiteController extends Controller
 			),
 		);
 	}
+//    public function actionRegisttion()
+//    {
+//        $model = new Users;
+//        $model->scenario = 'registtion';
+//        // Uncomment the following line if AJAX validation is needed
+//        // $this->performAjaxValidation($model);
+//
+//        if (isset($_POST['User'])) {
+//            $model->attributes = $_POST['User'];
+//
+//            if ($model->save())
+//                $this->redirect('registtion', array(
+//                    'model' => $model,
+//                ));
+//
+////                if()
+////                {
+////                    Yii::app()->user->setFlash('registtion', 'Регістрація є');
+////                }
+////                else{
+////                    Yii::app()->user->setFlash('registtion', 'Регістрація немає');
+////                }
+//
+//        }
+//
+//        $this->render('registtion', array(
+//            'model' => $model,
+//        ));
+//    }
+    public function actionRegisttion()
+	{
+		$model=new Users;
 
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['Users']))
+		{
+			$model->attributes=$_POST['Users'];
+			if($model->save())
+                $model->yes=1;
+//				$this->redirect(array('registtion',array('model'=>$model,)));
+            $this->redirect(array('forum','id'=>$model->ID));
+		}
+
+		$this->render('registtion',array(
+			'model'=>$model
+		));
+	}
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -33,7 +81,7 @@ class SiteController extends Controller
 	}
     public function actionForum()
     {
-        $num=0;
+//        $num=0;
        // $a = Category::model()->findAll('id>:num', array(':num'=>$num));
 //        $model=Book::model()->findByPk($id);
         $a = Category::model()->findAllBySql( 'SELECT title FROM Category WHERE 1');

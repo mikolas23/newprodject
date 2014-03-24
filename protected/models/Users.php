@@ -1,28 +1,12 @@
 <?php
 
-/**
- * This is the model class for table "users".
- *
- * The followings are the available columns in table 'users':
- * @property string $ID
- * @property string $Password
- * @property string $Login
- * @property string $Username
- * @property string $Name
- * @property string $Email
- * @property string $Address
- * @property string $Comments
- * @property string $Birtday
- * @property string $Language
- * @property integer $Style
- * @property integer $Role
- * @property integer $Hasavatar
- */
+
 class Users extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
+    public $yes;
 	public function tableName()
 	{
 		return 'users';
@@ -44,7 +28,7 @@ class Users extends CActiveRecord
 			array('Email, Address', 'length', 'max'=>64),
 			array('Language', 'length', 'max'=>1),
 			array('Comments, Birtday', 'safe'),
-			// The following rule is used by search().
+//			 The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('ID, Password, Login, Username, Name, Email, Address, Comments, Birtday, Language, Style, Role, Hasavatar', 'safe', 'on'=>'search'),
 		);
@@ -68,17 +52,17 @@ class Users extends CActiveRecord
 	{
 		return array(
 			'ID' => 'ID',
-			'Password' => 'Password',
-			'Login' => 'Login',
-			'Username' => 'Username',
-			'Name' => 'Name',
-			'Email' => 'Email',
-			'Address' => 'Address',
-			'Comments' => 'Comments',
-			'Birtday' => 'Birtday',
-			'Language' => 'Language',
-			'Style' => 'Style',
-			'Role' => 'Role',
+			'Password' => 'Пароль',
+			'Login' => 'Логін',
+			'Username' => 'Прізвище',
+			'Name' => 'Імя',
+			'Email' => 'Електронна адреса',
+			'Address' => 'Адреса',
+			'Comments' => 'Коментарі',
+			'Birtday' => 'День народженя',
+			'Language' => 'Мова',
+			'Style' => 'Стиль',
+			'Role' => 'Роль',
 			'Hasavatar' => 'Hasavatar',
 		);
 	}
@@ -119,6 +103,15 @@ class Users extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+//    public function beforeSave()
+//    {
+//        if($this->isNewRecord)
+//
+//        $this->Birtday=time();
+////        $this->Role=1;
+//        $this->password=md5($this->password);
+//        return parent::beforeSave();
+//    }
 
 	/**
 	 * Returns the static model of the specified AR class.
