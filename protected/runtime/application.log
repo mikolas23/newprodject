@@ -1517,3 +1517,21 @@ REQUEST_URI=/ruslan/index.php?r=site/registtion
 in C:\wamp\www\ruslan\protected\views\site\registtion.php (26)
 in C:\wamp\www\ruslan\protected\controllers\SiteController.php (69)
 in C:\wamp\www\ruslan\index.php (13)
+2014/03/26 10:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/category".' in C:\wamp\www\ruslan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\ruslan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#1 C:\wamp\www\ruslan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\ruslan\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ruslan/index.php?r=admin/category
+HTTP_REFERER=http://localhost/ruslan/index.php?r=admin/users/index
+---
+2014/03/26 10:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/category".' in C:\wamp\www\ruslan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\ruslan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category')
+#1 C:\wamp\www\ruslan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\ruslan\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ruslan/index.php?r=admin/category
+HTTP_REFERER=http://localhost/ruslan/index.php?r=admin
+---
